@@ -1,0 +1,8 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.bgdiv{display: inline-block;}
+.bgdiv span{padding: 0 10px 0 0;}
+.smartagegate_hide{display:none;}
+.custom-media-uploader .custom-upload-button.button{border: none;background: transparent;padding: 0;}

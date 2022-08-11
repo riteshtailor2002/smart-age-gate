@@ -1,0 +1,165 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#age-app {
+    margin: 0 auto;
+    width: 100%;
+}
+.mainContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.age-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50% */
+}
+.numberInput {
+    height: 126px;
+    text-align: center;
+    font-size: 50px;
+    padding: 5px;
+    width: 110px;
+    margin: 20px;
+    caret-color: transparent;
+
+}
+.parent {
+    position: relative;
+    height: 126px;
+
+}
+.child-1,
+.child-2,
+.child-3,
+.child-4 {
+    animation: blinker 1s linear infinite;
+    border-bottom: 5px solid red;
+    width: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 64px;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-age-appearance: none;
+    margin: 0;
+}
+/* Firefox */
+input[type=number] {
+    -moz-age-appearance: textfield;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;    
+    height: 100%;
+    width: 100%;
+    z-index: 99999;
+    background-color: #000000;
+    opacity: 1;
+    background-position: center center;
+}
+
+.error_message {
+    color: red;
+    font-size: 20px;
+}
+
+
+.remember-text {
+
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 400px;
+}
+
+.remember-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.confirm-message {
+
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.general_message {
+
+    color: white;
+
+    font-size: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+
+@media only screen and (max-width: 680px) {
+
+    .numberInput {
+
+        height: 75px;
+        text-align: center;
+        font-size: 30px;
+        padding: 5px;
+        width: 60px;
+        margin: 0px;
+        caret-color: transparent;
+    }
+
+    .parent {
+
+        position: relative;
+        height: 75px;
+        /* width: 60px; */
+        margin: 10px;
+    }
+
+    .remember-text {
+        margin-top: 50px;
+        width: 250px;
+    }
+
+    .age-container {
+
+        width: 200px;
+
+    }
+
+    .child-1,
+    .child-2,
+    .child-3,
+    .child-4 {
+
+        animation: blinker 1s linear infinite;
+        border-bottom: 5px solid red;
+        width: 20px;
+        position: absolute;
+        bottom: 10px;
+        left: 20px;
+
+    }
+
+}
