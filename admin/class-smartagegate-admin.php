@@ -62,8 +62,8 @@ class SmartAgeGate_Admin
 	 */
 	public function smartagegate_admin_menu() {
 		add_menu_page(
-			__('Settings', 'smartagegate-settings'),
-			__('Smart Age Gate', 'smartagegate-settings'),
+			__('Settings', 'smartagegate'),
+			__('Smart Age Gate', 'smartagegate'),
 			'manage_options',
 			'smartagegate_settings',
 			array($this, 'smartagegate_settings_html')
@@ -81,7 +81,7 @@ class SmartAgeGate_Admin
 		// WordPress will add the "settings-updated" $_GET parameter to the url
 		if (isset($_GET['settings-updated'])) {
 			// add settings saved message with the class of "updated"
-			add_settings_error('smartagegate_settings_messages', 'smartagegate_settings_message', __('Settings Saved', 'smartagegate_settings'), 'updated');
+			add_settings_error('smartagegate_settings_messages', 'smartagegate_settings_message', __('Settings Saved', 'smartagegate'), 'updated');
 		}
 
 		// show error/update messages
@@ -198,7 +198,8 @@ class SmartAgeGate_Admin
 				'label_for' => 'smartagegate_birth_heading',
 				'class' => 'smartagegate_birth_heading',
 				'smartagegate_custom_data' => 'custom-heading',
-				'value' => (isset($smartagegate_settings_options['smartagegate_birth_heading']) && $smartagegate_settings_options['smartagegate_birth_heading']!='') ? $smartagegate_settings_options['smartagegate_birth_heading'] : __( 'Please enter your year of birth', 'smartagegate' )
+				'value' => ( isset($smartagegate_settings_options['smartagegate_birth_heading']) 
+								&& $smartagegate_settings_options['smartagegate_birth_heading']!='' ) ? $smartagegate_settings_options['smartagegate_birth_heading'] : __( 'Please enter your year of birth', 'smartagegate' )
 			)
 		);
 		/*
@@ -222,7 +223,7 @@ class SmartAgeGate_Admin
 		*/
 		add_settings_field(
 			'smartagegate_background_color',
-			__('Background color'),
+			__('Background color', 'smartagegate'),
 			array($this,'smartagegate_background_color_field_html'), // function which prints the field
 			'smartagegate', // page slug
 			'smartagegate_settings', // section ID
@@ -238,7 +239,7 @@ class SmartAgeGate_Admin
 		*/
 		add_settings_field(
 			'smartagegate_background_image',
-			__('Background Image'),
+			__('Background Image', 'smartagegate'),
 			array($this,'smartagegate_background_image_media_field_html'), // function which prints the field
 			'smartagegate', // page slug
 			'smartagegate_settings', // section ID
@@ -254,7 +255,7 @@ class SmartAgeGate_Admin
 		*/
 		add_settings_field(
 			'smartagegate_free_text',
-			__('Free Text'),
+			__('Free Text', 'smartagegate'),
 			array($this,'smartagegate_free_text_field_html'), // function which prints the field
 			'smartagegate', // page slug
 			'smartagegate_settings', // section ID
@@ -270,7 +271,7 @@ class SmartAgeGate_Admin
 		*/
 		add_settings_field(
 			'smartagegate_cookie_time',
-			__('Cookie Time(in days)'),
+			__('Cookie Time(in days)', 'smartagegate'),
 			array($this,'smartagegate_cookie_time_text_field_html'), // function which prints the field
 			'smartagegate', // page slug
 			'smartagegate_settings', // section ID
@@ -286,7 +287,7 @@ class SmartAgeGate_Admin
 		*/
 		add_settings_field(
 			'smartagegate_minimum_age',
-			__('Cookie Time(in days)'),
+			__('Cookie Time(in days)', 'smartagegate'),
 			array($this,'smartagegate_minimum_age_text_field_html'), // function which prints the field
 			'smartagegate', // page slug
 			'smartagegate_settings', // section ID
