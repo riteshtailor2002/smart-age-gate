@@ -223,7 +223,7 @@ class SmartAgeGate_Admin
 		*/
 		add_settings_field(
 			'smartagegate_background_color',
-			__('Background colorssss', 'smartagegate'),
+			__('Background color', 'smartagegate'),
 			array($this,'smartagegate_background_color_field_html'), // function which prints the field
 			'smartagegate', // page slug
 			'smartagegate_settings', // section ID
@@ -287,7 +287,7 @@ class SmartAgeGate_Admin
 		*/
 		add_settings_field(
 			'smartagegate_minimum_age',
-			__('Cookie Time(in days)', 'smartagegate'),
+			__('Minimum Age', 'smartagegate'),
 			array($this,'smartagegate_minimum_age_text_field_html'), // function which prints the field
 			'smartagegate', // page slug
 			'smartagegate_settings', // section ID
