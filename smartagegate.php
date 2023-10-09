@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Smart Age Gate
  * Plugin URI:        https://axelerant.com
- * Description:       Add a dark overlay to your website and ask to enter the year of birth to verify the age of visitor and allow access to the content.
+ * Description:       Ensure legal compliance and restrict mature content with our Age Verification Plugin. Prompt visitors to verify their age before accessing your site, providing a seamless and secure experience.
  * Version:           1.0.0
  * Author:            Axelerant
  * Author URI:        https://axelerant.com

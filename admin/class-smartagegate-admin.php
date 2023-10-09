@@ -223,7 +223,7 @@ class SmartAgeGate_Admin
 		*/
 		add_settings_field(
 			'smartagegate_background_color',
-			__('Background color', 'smartagegate'),
+			__('Background colorssss', 'smartagegate'),
 			array($this,'smartagegate_background_color_field_html'), // function which prints the field
 			'smartagegate', // page slug
 			'smartagegate_settings', // section ID
@@ -327,8 +327,11 @@ class SmartAgeGate_Admin
 	 *
 	 * @since    1.0.0
 	 */	
-	public function smartagegate_background_color_or_image_field_html($args) { 
-		
+	public function smartagegate_background_color_or_image_field_html($args) {
+		 
+		$smartagegate_checked_color = ''; 
+		$smartagegate_checked_img = '';
+
 		if(isset($args['value']) && $args['value']!=1){
 			$smartagegate_checked_color  = 'checked="checked"';
 			$hide_img_class = 'smartagegate_hide';

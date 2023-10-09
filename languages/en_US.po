@@ -4,19 +4,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Smart Age Gate 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/smart-age-gate\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2023-10-09T10:06:08+00:00\n"
+"PO-Revision-Date: 2023-10-09 16:30+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-10-09T11:32:30+00:00\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.8.1\n"
+"X-Generator: Poedit 3.4\n"
 "X-Domain: smartagegate\n"
 
 #. Plugin Name of the plugin
-#: admin/class-smartagegate-admin.php:66
-#: admin/class-smartagegate-admin.php:184
+#: admin/class-smartagegate-admin.php:66 admin/class-smartagegate-admin.php:184
 msgid "Smart Age Gate"
 msgstr ""
 
@@ -26,7 +26,9 @@ msgid "https://axelerant.com"
 msgstr ""
 
 #. Description of the plugin
-msgid "Ensure legal compliance and restrict mature content with our Age Verification Plugin. Prompt visitors to verify their age before accessing your site, providing a seamless and secure experience."
+msgid ""
+"Add a dark overlay to your website and ask to enter the year of birth to "
+"verify the age of visitor and allow access to the content."
 msgstr ""
 
 #. Author of the plugin
