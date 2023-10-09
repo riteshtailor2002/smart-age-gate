@@ -9,6 +9,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Ensure legal compliance and restrict mature content with our Age Verification Plugin. Prompt visitors to verify their age before accessing your site, providing a seamless and secure experience.
+Ensure legal compliance and restrict mature content with our Age Verification Plugin. Prompt visitors to verify their age before accessing your site, providing a seamless and secure experience.
 
 == Description ==
 
