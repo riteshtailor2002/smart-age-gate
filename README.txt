@@ -8,34 +8,17 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+Ensure legal compliance and restrict mature content with our Age Verification Plugin. Prompt visitors to verify their age before accessing your site, providing a seamless and secure experience.
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+Our Age Verification Plugin offers a robust solution for websites that require age-restricted content access. Whether you're selling age-restricted products, providing adult content, or simply need to comply with legal regulations, this plugin seamlessly integrates into your WordPress site. With an intuitive interface, it prompts visitors to enter their year of birth, ensuring only eligible users gain access to the content they seek. Implement a secure and user-friendly age verification system today
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
-
-A few notes about the sections above:
-
-*   "Contributors" is a comma separated list of wp.org/wp-plugins.org usernames
-*   "Tags" is a comma separated list of tags that apply to the plugin
-*   "Requires at least" is the lowest version that the plugin will work on
-*   "Tested up to" is the highest version that you've *successfully used to test the plugin*. Note that it might work on
-higher versions... this is just the highest one you've verified.
-*   Stable tag should indicate the Subversion "tag" of the latest stable version, or "trunk," if you use `/trunk/` for
-stable.
-
-    Note that the `readme.txt` of the stable tag is the one that is considered the defining one for the plugin, so
-if the `/trunk/readme.txt` file says that the stable tag is `4.3`, then it is `/tags/4.3/readme.txt` that'll be used
-for displaying information about the plugin.  In this situation, the only thing considered from the trunk `readme.txt`
-is the stable tag pointer.  Thus, if you develop in trunk, you can update the trunk `readme.txt` to reflect changes in
-your in-development version, without having that information incorrectly disclosed about the current stable version
-that lacks those changes -- as long as the trunk's `readme.txt` points to the correct stable tag.
-
-    If no stable tag is provided, it is assumed that trunk is stable, but you should specify "trunk" if that's where
-you put the stable version, in order to eliminate any doubt.
+= Smar Age Gate key features =
+* Easily customize the appearance, background image/color of the age verification overlay to match your website's branding.
+* Schedule age restrictions for specific times, ideal for events or promotions with time-limited age requirements.
+* If a visitor enters an incorrect birth year, the plugin will prevent them from accessing the content and may provide a customizable error message.
+* Easily integrate the age verification plugin into your WordPress site, ensuring a hassle-free setup process.
 
 == Installation ==
 
@@ -45,70 +28,31 @@ e.g.
 
 1. Upload `smartagegate.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= How does the age verification process work? =
+Our plugin displays a dark overlay on your website prompting visitors to enter their year of birth. Once entered, it verifies if the user meets the age requirement before granting access to the content.
 
-An answer to that question.
+= Can I customize the appearance of the age verification overlay? =
+Absolutely! You can easily customize the overlay colors, background image, and messages displayed on the overlay to match your website's branding and style.
 
-= What about foo bar? =
+= Is this plugin compliant with legal regulations for age-restricted content? =
+Yes, our plugin provides a reliable method to verify a user's age, helping you meet legal requirements for age-restricted content or products.
 
-Answer to foo bar dilemma.
+= Can I set different age restrictions for different sections of my website? =
+No, our plugin allows you to set specific age restrictions for the whole site.
+
+= What happens if a visitor enters an incorrect birth year? =
+If a visitor enters an incorrect birth year, the plugin will prevent them from accessing the content and may provide a message informing them that they are ineligible.
+
+= Is the age verification process GDPR compliant? =
+Yes, our plugin is designed with privacy in mind and is fully GDPR compliant. It does not store or track any user information beyond the age verification process.
+
+= Is support available if I encounter any issues or need assistance with setup? =
+Absolutely! Our dedicated support team is available to assist you with any questions, concerns, or technical assistance you may need. Simply reach out via our support channels.
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
-
-== Changelog ==
-
-= 1.0 =
-* A change since the previous version.
-* Another change.
-
-= 0.5 =
-* List versions from most recent at top to oldest at bottom.
-
-== Upgrade Notice ==
-
-= 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
-
-= 0.5 =
-This version fixes a security related bug.  Upgrade immediately.
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation."  Arbitrary sections will be shown below the built-in sections outlined above.
-
-== A brief Markdown Example ==
-
-Ordered list:
-
-1. Some feature
-1. Another feature
-1. Something else about the plugin
-
-Unordered list:
-
-* something
-* something else
-* third thing
-
-Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
-Titles are optional, naturally.
-
-[markdown syntax]: http://daringfireball.net/projects/markdown/syntax
-            "Markdown is what the parser uses to process much of the readme file"
-
-Markdown uses email style notation for blockquotes and I've been told:
-> Asterisks for *emphasis*. Double it up  for **strong**.
-
-`<?php code(); // goes in backticks ?>`
+1. 
+2. 
