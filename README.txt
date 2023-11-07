@@ -53,7 +53,3 @@ Yes, our plugin is designed with privacy in mind and is fully GDPR compliant. It
 = Is support available if I encounter any issues or need assistance with setup? =
 Absolutely! Our dedicated support team is available to assist you with any questions, concerns, or technical assistance you may need. Simply reach out via our support channels.
 
-== Screenshots ==
-
-1. 
-2. 
