@@ -41,7 +41,7 @@ var age_app = new Vue({
 		cssVars() {
 			let styleStr;			
 			if(this.background_image_color == 1){
-				styleStr = {'background-image' : 'url('+this.background_image+')'};
+				styleStr = {'background-image' : 'url('+this.background_image+')','background-repeat':'no-repeat','background-size':'cover'};
 			}
 			else{
 				styleStr = {'background-color' : this.background_color};

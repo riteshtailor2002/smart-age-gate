@@ -271,7 +271,7 @@ class SmartAgeGate_Admin
 		*/
 		add_settings_field(
 			'smartagegate_cookie_time',
-			__('Cookie Time(in days)', 'smartagegate'),
+			__('Remember Me Cookie Time(in days)', 'smartagegate'),
 			array($this,'smartagegate_cookie_time_text_field_html'), // function which prints the field
 			'smartagegate', // page slug
 			'smartagegate_settings', // section ID

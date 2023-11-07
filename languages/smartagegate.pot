@@ -68,7 +68,7 @@ msgstr ""
 
 #: admin/class-smartagegate-admin.php:274
 #: admin/class-smartagegate-admin.php:290
-msgid "Cookie Time(in days)"
+msgid "Remember Me Cookie Time(in days)"
 msgstr ""
 
 #: admin/class-smartagegate-admin.php:352
